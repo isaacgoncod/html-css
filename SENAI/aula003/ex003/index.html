@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="nome">Nome : </label>
+    <input type="text" id="nome"><br>
+    <label for="end">Endereço : </label>
+    <input type="text" id="end"><br>
+    <label for="cid">Cidade : </label>
+    <input type="text" id="cid"><br>
+    <br>
+    <label for="est">Estado : </label>
+    <select name="" id="est">
+      <option value="">São Paulo</option>
+      <option value="">Rio de Janeiro</option>
+      <option value="">Minas Gerais</option>
+    </select>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Dados Profissionais</legend>
+    <label for="nat">Natureza do cargo</label><br>
+    <input type="radio" id="gen" name="nat">
+    <label for="gen">Gerência</label>
+    <input type="radio" id="fin" name="nat">
+    <label for="fin">Financeiro</label>
+    <input type="radio" id="rec" name="nat">
+    <label for="rec">Recepção</label>
+    <input type="radio" id="adm" name="nat">
+    <label for="adm">Administrativo</label>
+    <input type="radio" id="jur" name="nat">
+    <label for="jur">Juridico</label>
+    <br>
+    <label for="area">Área de Interesse</label><br>
+    <input type="checkbox" id="cmp" >
+    <label for="cmp">Computação</label>
+    <input type="checkbox" id="bio" >
+    <label for="bio">Biologia</label>
+    <input type="checkbox" id="meia" >
+    <label for="meia">Meio Ambiente</label>
+    <input type="checkbox" id="eng" >
+    <label for="eng">Engenharia</label>
+    <input type="checkbox" id="his" >
+    <label for="his">História</label>
+    <br>
+    <label for="mini">Mini-curriculo : </label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+  </fieldset>
+  <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</body>
+</html>

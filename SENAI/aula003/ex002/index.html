@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Manuntenção</title>
+
+</head>
+<body>
+  <h1>MANUNTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h1>
+
+  <label for="login"></label><strong>Login : </strong>
+  <input type="text" id="login">
+  <br>
+  <label for="senha"></label><strong>Senha :</strong>
+  <input type="password" id="senha">
+  <br>
+  <label for="status"></label><strong>Status : </strong>
+  <select name="" id="status">
+    <option value="">Ativo</option>
+    <option value="">Inativo</option>
+  </select>
+  <br>
+  <label for="tipo"><strong>Tipo : </strong></label>
+  <label for="tecnico">Técnico</label>
+  <input type="radio" id="tecnic" name="tipo">
+  <label for="prof">Professor</label>
+  <input type="radio" id="prof" name="tipo">
+  <label for="aluno">Aluno</label>
+  <input type="radio" id="aluno" name="tipo">
+  <br>
+  <label for="data"><strong>Data : </strong></label>
+  <input type="date" id="data">
+  <br>
+  <label for="perfil"><strong>Perfil : </strong></label>
+  <label for="adm">Administrador</label>
+  <input type="radio" id="adm" name="perfil">
+  <label for="conv">Convidado</label>
+  <input type="radio" id="conv" name="perfil">
+  <br>
+  <label for="coment"><strong>Observações : </strong></label>
+  <textarea name="" id="coment" cols="20" rows="5"></textarea>
+  <br>
+  <label for="mod"><strong>Módulos : </strong></label>
+  <input type="checkbox" id="com" name="mod">
+  <label for="com">Compras</label>
+  <input type="checkbox" id="bib" name="mod">
+  <label for="bib">Biblioteca</label>
+  <input type="checkbox" id="aca" name="mod">
+  <label for="aca">Academico</label><br>
+  <input type="checkbox" id="doc" name="mod">
+  <label for="doc">Documentação</label>
+  <input type="checkbox" id="rh" name="mod">
+  <label for="rh">Recursos Humanos</label>
+  <br>
+  <input type="submit" value="Cadastrar">
+  <input type="reset" value="Excluir">
+</body>
+</html>

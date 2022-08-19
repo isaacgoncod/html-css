@@ -1,0 +1,42 @@
+/* importar fontes externas */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+
+h1,
+p {
+  color: blue;
+  font-family: "Silkscreen", cursive;
+
+  background-color: rgb(8, 7, 58);
+
+  border: 2px solid rgb(8, 12, 228);
+}
+
+#texto {
+  color: red;
+
+  /* fonte importada */
+  font-family: "Silkscreen", cursive;
+
+  background-color: rgb(58, 17, 7);
+
+  border: 2px solid rgb(255, 51, 0);
+}
+
+.titulo {
+  color: green;
+
+  /* ordem de precedencia das fontes que estão disponíveis no site */
+  font-family: "Silkscreen", cursive;
+
+  background-color: rgb(7, 58, 37);
+
+  border: 2px solid rgb(0, 255, 34);
+}
+
+body {
+  /* add imagem no fundo do site */
+  background-image: url("../../assets/vaporwave-zl.jpg");
+
+  /* tamanho da imagem no site. cover(ajusta altomaticamente com a resolução do monitor) */
+  background-size: cover;
+}

@@ -1,0 +1,29 @@
+/* tudo que for elemento é referenciado com "*" */
+/* *{
+margin: 0;
+padding: 0;
+
+} */
+
+header{
+  width: 100vw;
+  height: 15vw;
+  background-color: beige;
+}
+main{
+  width: 100vw;
+  height: 75vw;
+  background-color: aquamarine;
+}
+footer{
+  width: 100vw;
+  height: 10vw;
+  background-color: purple;
+}
+ul{
+  list-style: none;
+}
+li{
+  float:left;
+  
+}

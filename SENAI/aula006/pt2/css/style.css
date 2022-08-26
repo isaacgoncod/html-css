@@ -1,0 +1,12 @@
+.caixa{
+  border: 2px solid salmon ;
+
+  /* top right bottom left */
+  /* margin: 100px 10px 25px 0px; */
+
+  /* x e y */
+  /* margin: 100px 50px; */
+
+  /* espassamento interno do conteudo  */
+  /* padding: 50px 100px 50px 0px ; */
+}

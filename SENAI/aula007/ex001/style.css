@@ -1,0 +1,32 @@
+.caixas{
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+#caixa1{
+  background-color: rosybrown;
+  width: 100%;
+  height: 15%;
+  border: 2px solid rosybrown;
+}
+#caixa2{
+  background-color: red;
+  width: 15% ;
+  height: 70%;
+  border: 2px solid red;
+}
+#caixa3{
+  background-color: green;
+  width: 85%;
+  height: 70%;
+  border: 2px solid green;
+  right: 0;
+  top: 75px;
+  position: absolute;
+}
+#caixa4{
+  background-color: yellow;
+  width: 100%;
+  height: 15%;
+  border: 2px solid yellow;
+}

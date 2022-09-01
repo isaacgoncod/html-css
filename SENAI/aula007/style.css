@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* respeita o tamanho predefinido da div */
+  box-sizing: border-box;
+}
+
+.bloco{
+  width: 50vw;
+  padding: 50px;
+  border: 2px solid green;
+}
+
+#linux{
+  width: 10vw;
+  float: right;
+}
+ul{
+  margin: 30px;
+}
+
+/* estilisa somente o li */
+.menu li{
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+  
+}
+
+.exemplo {
+  width: 90vw;
+  height: 50vh;
+  margin: 30px;
+  border: 2px solid purple;
+}
+.exemplo > div{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid blue;
+}
+.exemplo #caixa2{
+  background-color: yellow;
+}

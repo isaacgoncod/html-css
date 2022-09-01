@@ -1,9 +1,9 @@
 /* tudo que for elemento é referenciado com "*" */
-/* *{
+ *{
 margin: 0;
 padding: 0;
 
-} */
+} 
 
 header{
   width: 100vw;
@@ -25,5 +25,5 @@ ul{
 }
 li{
   float:left;
-  
+
 }

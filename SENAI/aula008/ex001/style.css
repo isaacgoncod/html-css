@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+}
+#container1{
+  display: flex;
+  justify-content: space-around;
+}
+#container2{
+  display: flex;
+  justify-content: space-between;
+}
+#container3{
+  display: flex;
+  justify-content: space-evenly;
+}
+#container4{
+  display: flex;
+  justify-content: center;
+}
+.circulos{
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}

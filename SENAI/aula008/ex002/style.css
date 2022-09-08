@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#cinza{
+  width: 100vw;
+  height: 12vh;
+  background-color: gray;
+  position: relative;
+}
+#ciano{
+  background-color: aquamarine;
+  width: 20vw;
+  height: 5vh;
+  top: 25%;
+  left: 1%;
+  position: absolute;
+}
+#branco1{
+  background-color: white;
+  width: 20vw;
+  height: 5vh;
+  top: 25%;
+  right: 4%;
+  position: absolute;
+}
+#rosa{
+background-color: pink;
+width: 24vw;
+height: 100vh;
+position: static;
+}
+#branco2{
+  background-color: white;
+  width: 15vw;
+  height: 40vh;
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+#roxo{
+  background-color: purple;
+  width: 76vw;
+  height: 100vh;
+  top: 12%;
+  left: 24%;
+  position: absolute;
+}

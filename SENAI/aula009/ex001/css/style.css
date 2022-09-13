@@ -7,18 +7,21 @@ header {
   width: 100vw;
   height: 7vh;
   background-color: rgba(255, 166, 0, 0.726);
-  display: flex;
-  align-items: center;
 }
-.menu-superior > ul > li {
-  float: left;
-  margin-left: 10px;
+.menu-superior {
   color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   list-style: none;
 }
-#menu-superior-direito{
-  color: rgb(134, 88, 3);
-  margin-left: px;
+.menu-superior-direito{
+  color: rgb(100, 66, 4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
 }
 #menu-inferior {
   width: 100vw;

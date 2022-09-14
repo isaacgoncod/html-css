@@ -1,110 +1,110 @@
-*{
-  margin: 0;
+* {
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-header{
+header {
   width: 100vw;
   height: 10vh;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   padding: 0 5px;
+  justify-content: space-between;
+  
+}
+header > img{
+  width: 5%;
+  height:100%;
+  display: block;
 
 }
-#menu-superior > ul > li{
+#menu-superior > ul > li {
   float: left;
-  font-size: 22px;
-  border: 1px solid black;
-  border-radius: 10%;
+  font-size: 15px;
+  border-radius: 50%;
   padding: 4px 12px;
   margin: 0 12px;
   list-style: none;
 }
-#menu-superior > ul > li:hover{
-  background-color: gray;
+#menu-superior > ul > li:hover {
+  background-color: blue;
   color: white;
   border: none;
   cursor: pointer;
 }
-header > img{
-  width: 6%;
-  height: 60%;
-  flex-direction: flex-start;
-}
-main{
+main {
+  width: 100vw;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container1{
+.container1 {
   width: 60vw;
   height: 30vh;
   display: flex;
+  margin: 50px 0px;
 }
-.container1 > div{
+.container1 > div {
   width: 30%;
   height: 100%;
 }
-.container1 > div > h2{
+.container1 > div > h2 {
   color: blue;
-  margin-bottom: 8%;
 }
-.container1 > img{
+.container1 > img {
   width: 35%;
   height: 100%;
   margin-left: 25%;
 }
-.container1 > div > button{
+.container1 > div > button {
   width: 35%;
-  background: blue;
-  color: white;
+  background: white;
+  color: blue;
   border: none;
   padding: 5px 5px;
-  border-radius: 10px;
-  cursor: pointer;
+  border-radius: 50%;
   font-size: 20px;
-  margin: 15px 150px;
+  margin: 0px 100px;
 }
-.container1 > div > button:hover{
-background-color: white;
-color: blue;
-cursor: pointer;  
-border: blue;
+.container1 > div > button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
 }
-.container2{
+.container2 {
   width: 60vw;
   height: 30vh;
   display: flex;
+  flex-direction: row-reverse;
 }
-.container2 > div{
+.container2 > div {
   width: 30%;
   height: 100%;
 }
-.container2 > div > h2{
+.container2 > div > h2 {
   color: blue;
-  margin-bottom: 8%;
 }
-.container2 > img{
+.container2 > img {
   width: 35%;
   height: 100%;
-  margin-left: 25%;
+  margin-right: 25%;
 }
-.container2 > div > button{
+.container2 > div > button {
   width: 35%;
-  background: blue;
-  color: white;
+  background: white;
+  color: blue;
   border: none;
   padding: 5px 5px;
-  border-radius: 10px;
-  cursor: pointer;
+  border-radius: 50%;
   font-size: 20px;
-  margin: 15px 150px;
+  margin: 0px 100px;
 }
-.container2 > div > button:hover{
-background-color: white;
-color: blue;
-cursor: pointer;  
-border: blue;
+.container2 > div > button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
 }

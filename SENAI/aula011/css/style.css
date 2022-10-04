@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Rubik;
+}
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 4px 0px ;
+}
+#logo{
+  font-size: 35px;
+  margin: 0 150px;
+  color: #fff;
+}
+#logo:hover{
+  cursor: pointer;
+  color: #BFB434;
+}
+span{
+  color: #BFB434;
+}
+a > p{
+  color: #fff;
+}
+a > p:hover{
+  color: #BFB434;
+}
+.icone{
+  width: 300px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.icone > input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.icone > img{
+  width: 30px;
+  height: 30px;
+  background-color: #BFB434;
+  border-radius: 5px;
+  padding: 5px;
+}
+.icone > img:hover{
+  cursor: pointer;
+}
+#login{
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+}
+ul > li{
+  float: left;
+  margin: 0 50px;
+  color: #3e3e3e;
+}
+ul > li:hover{
+  color: #000;
+  cursor: pointer;
+}
+#menu-inferior{
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#jogo{
+  width: 100vw;
+  height: 80vh;
+  background-image: url(./assets/img-jogo.jpg);
+}
+#jogo > div{
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jogo > div > div{
+  width: 600px;
+  height: 450px; 
+  display: flex;
+}
+#jogo > div > div > img{
+  width: 350px;
+  height: 350px;
+}
+#jogo > div > div > div {
+  margin: 100px 0 ;
+  color: #fff;
+}
+#jogo > div > div > div > button{
+  width: 150px;
+  height: 50px;
+  background-color: #3e3e3e;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 60px 0;
+}
+#jogo > div > div > div > button:hover{
+  cursor: pointer;
+  background-color: #BFB434;
+  color: #000;
+}
+.card{
+  width: 350px;
+  height: 400px; 
+  margin: 50px 0;
+}
+.card > img{
+  width: 200px;
+  height: 250px;
+  margin: 10px 80px;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body p{
+  margin: 10px;
+}
+.card-body button{
+  width: 100px;
+  height: 35px;
+  background-color: #BFB434;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.card-body button:hover{
+  background-color: #3e3e3e;
+  color: #fff;
+  cursor: pointer;
+}

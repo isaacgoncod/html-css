@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+header > img{
+  width: 100px;
+  height: 100px;
+}
+.tabela{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
+}
+ul > li{
+  list-style: none;
+  margin: 30px 0;
+}
+.tabela div{
+  background-color: #3e3e3e46;
+  width: 80%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.imagem{
+  display: flex;
+  float: right;
+}
+.imagem > div > img{
+  width: 300px;
+  height: 150px;
+}

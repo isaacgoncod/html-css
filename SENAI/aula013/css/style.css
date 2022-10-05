@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+  list-style: none;
+}
+ul > a > li{
+  float: left;
+  padding: 15px;
+  color: #3e3e3e;
+  font-size: 14px;
+}
+nav{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+img{
+  width: 50px;
+  height: 50px;
+}
+label > img{
+  width: 16px;
+  height: 16px;
+}
+label > img:hover{
+  cursor: pointer;
+  background-color: #3e3e3e4d;
+  border-radius: 100%;
+}
+#menu-drop{
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  right: 20px;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #3e3e3e2a;
+  border-radius: 10px;
+  box-shadow:  2px 2px  #3e3e3e2a;
+  padding: 20px;
+}
+#menu, #menu-drop{
+  display: none;
+}
+#menu-drop  img{
+  padding: 5px;
+}
+#menu-drop > div{
+  width: 100%;
+  height: 15%;
+  padding: 0 5px;
+  border-radius: 5px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#menu-drop > div:hover{
+  background-color: rgba(0, 0, 255, 0.2);
+}
+#menu:checked ~ #menu-drop{
+  display: flex;  
+  transition-delay: 2s;
+}
+#logo{
+  width: 380px;
+  height: 130px;
+  margin: 40px 0;
+}
+main{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main > input{
+  width: 600px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #3e3e3e2a;
+  box-shadow: 2px 2px  #3e3e3e2a;
+  padding: 0 10px;
+}
+.pages-icon{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.pages-icon > div{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  margin: 0 30px;
+}
+.pages-icon > div > p{
+  margin: 15px 0px;
+}
+.pages-icon > div > label > img{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.pages-icon > div:hover{
+  background-color: #3e3e3e2a;
+}
+footer{
+  display: flex;
+  justify-content: flex-end;
+}
+#menu-pages{
+  display: none;
+}

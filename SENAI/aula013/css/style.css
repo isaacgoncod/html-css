@@ -74,7 +74,7 @@ label > img:hover{
 }
 main{
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -115,6 +115,8 @@ main > input{
   background-color: #3e3e3e2a;
 }
 footer{
+  width: 100vw;
+  height: 5vh;
   display: flex;
   justify-content: flex-end;
 }

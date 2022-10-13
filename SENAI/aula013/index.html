@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./css/assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Nova guia</title>
   </head>
   <body>
     <nav>
       <ul>
-        <a href="">
+        <a href="https://mail.google.com">
           <li>Gmail</li>
         </a>
-        <a href="">
+        <a href="https://www.google.com/imghp?hl=pt-BR">
           <li>Imagens</li>
         </a>
       </ul>
@@ -25,51 +26,61 @@
       <input type="checkbox" id="menu" />
       <div id="menu-drop">
         <div>
-          <img src="./css/assets/youtube.png" alt="Youtube" />
+          <a href="https://www.youtube.com/"><img src="./css/assets/youtube.png" alt="Youtube" />
+          </a>
           <p>Youtube</p>
         </div>
         <div>
-          <img src="./css/assets/gmail.png" alt="Gmail" />
+          <a href="https://mail.google.com"><img src="./css/assets/gmail.png" alt="Gmail" /></a>
           <p>Gmail</p>
         </div>
         <div>
-          <img src="./css/assets/drive.png" alt="Drive" />
+          <a href="https://www.google.com/intl/pt-br/drive/about.html"><img src="./css/assets/drive.png" alt="Drive" /></a>
           <p>Drive</p>
         </div>
         <div>
-          <img src="./css/assets/fotos.png" alt="Fotos" />
+          <a href="https://www.google.com/intl/pt-BR/photos/about/"><img src="./css/assets/fotos.png" alt="Fotos" /></a>
           <p>Fotos</p>
         </div>
       </div>
       <img src="./css/assets/google.png" alt="Logo" id="logo"/>
-      <input type="text" placeholder="Pesquise no Google ou digite um URL" />
+      <div id="pesquisa">
+        <img src="./css/assets/lupa.png" alt="Lupa">
+        <input type="text" placeholder="Pesquise no Google ou digite um URL" />
+        <img src="./css/assets/microfone.png" alt="Microfone">
+      </div>
       <div class="pages-icon">
         <div>
           <label for="menu">
-            <img src="./css/assets/dots3.png" alt="Mais Ações" />
+            <img src="./css/assets/dots3.png" alt="Mais Ações" class="dots" />
           </label>
-          <img src="./css/assets/github.png" alt="Página" />
-          <p>GitHub</p>
+          <a href="">
+            <img src="./css/assets/github.png" alt="Página" />
+            <p>GitHub</p>
+          </a>
         </div>
         <div>
           <label for="menu"
-            ><img src="./css/assets/dots3.png" alt="Mais Ações"
+            ><img src="./css/assets/dots3.png" alt="Mais Ações" class="dots"
           /></label>
-          <img src="./css/assets/youtube.png" alt="Página" />
-          <p>Youtube</p>
+          <a href="https://www.youtube.com/"">
+            <img src="./css/assets/youtube.png" alt="Página" />
+            <p>Youtube</p>
+          </a>
         </div>
         <div>
-          <img src="./css/assets/more-icon.png" alt="Página" />
-          <p>Adicionar..</p>
+          <a href="">
+            <img src="./css/assets/more-icon.png" alt="Página" />
+            <p>Adicionar..</p>
+          </a>
         </div>
       </div>
     </main>
     <footer>
-      <button>Persolizar o chrome</button>
+      <div id="menu-footer">
+        <img src="./css/assets/caneta.svg" alt="Caneta">
+        <p>Persolizar o chrome</p>
+      </div>
     </footer>
-    <div id="menu-pages">
-      <p>Editar atalho</p>
-      <p>Remover</p>
-    </div>
   </body>
 </html>

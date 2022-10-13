@@ -1,39 +1,39 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-ul{
+ul {
   list-style: none;
 }
-ul > a > li{
+ul > a > li {
   float: left;
   padding: 15px;
   color: #3e3e3e;
   font-size: 14px;
 }
-nav{
+ul > a > li:hover {
+  text-decoration: underline;
+}
+nav {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding: 20px;
 }
-img{
-  width: 50px;
-  height: 50px;
-}
-label > img{
+label > img {
   width: 16px;
   height: 16px;
 }
-label > img:hover{
+label > img:hover {
   cursor: pointer;
   background-color: #3e3e3e4d;
   border-radius: 100%;
 }
-#menu-drop{
+#menu-drop {
   width: 300px;
   height: 600px;
   position: absolute;
@@ -42,84 +42,131 @@ label > img:hover{
   background-color: #fff;
   border: 1px solid #3e3e3e2a;
   border-radius: 10px;
-  box-shadow:  2px 2px  #3e3e3e2a;
+  box-shadow: 2px 2px #3e3e3e2a;
   padding: 20px;
 }
-#menu, #menu-drop{
+#menu,
+#menu-drop {
   display: none;
 }
-#menu-drop  img{
+#menu-drop img {
+  width: 50px;
+  height: 50px;
   padding: 5px;
 }
-#menu-drop > div{
+#menu-drop > div {
   width: 100%;
   height: 15%;
   padding: 0 5px;
   border-radius: 5px;
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#menu-drop > div:hover{
-  background-color: rgba(0, 0, 255, 0.2);
+
+#menu-drop > div:hover {
+  background-color: #0090f723;
 }
-#menu:checked ~ #menu-drop{
-  display: flex;  
+#menu:checked ~ #menu-drop {
+  display: flex;
   transition-delay: 2s;
 }
-#logo{
-  width: 380px;
-  height: 130px;
+#logo {
+  width: 340px;
+  height: 120px;
   margin: 40px 0;
 }
-main{
+main {
   width: 100vw;
   height: 85vh;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-main > input{
+#pesquisa {
   width: 600px;
   height: 40px;
   border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
   border: 1px solid #3e3e3e2a;
-  box-shadow: 2px 2px  #3e3e3e2a;
-  padding: 0 10px;
+  box-shadow: 2px 2px #3e3e3e2a;
 }
-.pages-icon{
+#pesquisa > img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+#pesquisa input {
+  width: 100%;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+}
+
+.pages-icon {
   width: 400px;
   display: flex;
   justify-content: center;
   margin: 100px;
 }
-.pages-icon > div{
-  width: 100px;
-  height: 100px;
+.pages-icon > div {
+  width: 120px;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  padding: 10px;
-  margin: 0 30px;
+  padding: 18px;
+  margin: 5px;
 }
-.pages-icon > div > p{
+.pages-icon > div > a {
   margin: 15px 0px;
+  text-decoration: none;
+  color: black;
 }
-.pages-icon > div > label > img{
+.pages-icon > div > a > img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+.dots {
+  opacity: 0;
   position: absolute;
-  right: 1px;
-  top: 1px;
+  right: 10px;
+  top: 10px;
+  transition: 0.2s;
+  transition-delay: 450ms;
 }
-.pages-icon > div:hover{
+.pages-icon > div:hover .dots {
+  opacity: 1;
+}
+.pages-icon > div:hover {
   background-color: #3e3e3e2a;
 }
-footer{
+footer {
   width: 100vw;
   height: 5vh;
   display: flex;
   justify-content: flex-end;
 }
-#menu-pages{
-  display: none;
+#menu-footer {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #3e3e3e2a;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  box-shadow: 2px 2px #3e3e3e2a;
+}
+#menu-footer > img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+#menu-footer:hover {
+  background-color: #0090f723;
+  cursor: pointer;
 }

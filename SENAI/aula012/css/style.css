@@ -10,7 +10,7 @@ ul > li{
   float: left;
 }
 nav{
-  width: 100vw;
+  width: 100vw; 
   padding: 15px 10px;
   display: flex;
   align-items: center;

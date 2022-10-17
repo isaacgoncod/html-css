@@ -15,19 +15,24 @@ header img {
   height: 30px;
   cursor: pointer;
 }
-.icone-menu,
 #menu {
   display: none;
 }
 .icone-menu {
   width: 20vw;
-  height: 1000px;
+  height: 1024px;
   position: absolute;
   top: 0;
   left: -20vw;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid black;
   transition: 1s;
+}
+.icone-menu > label{
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
 }
 .icone-menu > ul > li {
   width: 100%;

@@ -20,7 +20,7 @@ header img {
 }
 .icone-menu {
   width: 20vw;
-  height: 1024px;
+  height: auto;
   position: absolute;
   top: 0;
   left: -20vw;
@@ -91,18 +91,17 @@ nav > ul > li:hover {
 }
 section {
   width: 99vw;
-  height: 700px;
+  height: auto;
   display: grid;
-  padding: 50px;
+  padding:  100px ;
+  gap: 0 50px;
 }
 #section1 {
-  height: 800px;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr;
   grid-template-areas:
     "container1 noticia1"
     "container1 noticia2";
-  gap: 50px;
 }
 #container1 {
   grid-area: container1;
@@ -110,7 +109,7 @@ section {
   justify-items: center;
 }
 #container1 > img {
-  width: 70%;
+  width: 80%;
   height: 80%;
   border-radius: 10px;
 }
@@ -130,8 +129,6 @@ section {
 }
 #section2 {
   grid-template-columns: 4fr 1fr;
-  height: 800px;
-  gap: 0 50px;
 }
 #container2 {
   display: grid;
@@ -149,8 +146,8 @@ section {
   justify-items: center;
 }
 #bloco1 > img {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   border-radius: 10px;
 }
 #blocos1 {
@@ -196,15 +193,16 @@ section {
 }
 #section3 {
   grid-template-columns: 4fr 1fr;
-  height: 1000px;
-  gap: 0 50px;
 }
 #container3 {
   display: grid;
   justify-items: center;
 }
 #container3 > img{
+  width: 80%;
+  height: 80%;
   border-radius: 10px;
+  margin: 50px 0;
 }
 footer {
   width: 99vw;

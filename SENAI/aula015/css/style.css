@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+span{
+  font-size: 28px;
+  text-decoration: underline;
 }
 header {
-  width: 99vw;
+  width: 100vw;
   height: 180px;
   display: flex;
   justify-content: space-around;
@@ -29,26 +34,25 @@ header img {
   border-radius: 5px;
   transition: 0.5s;
 }
-.icone-menu > label{
+.icone-menu > label {
   cursor: pointer;
   display: flex;
   justify-content: flex-end;
   margin: 15px;
 }
-.icone-menu > ul > li {
+.icone-menu > ul > a > li{
   width: 100%;
   margin: 50px 0px;
   padding: 10px;
   font-size: 23px;
+  color: black;
 }
-.icone-menu > ul > li:hover {
-  cursor: pointer;
+.icone-menu > ul > a > li:hover {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50px;
 }
 #menu:checked ~ .icone-menu {
   left: 0;
-  display: block;
   text-align: center;
 }
 #pesquisa {
@@ -70,7 +74,7 @@ header img {
   border: none;
 }
 #logo {
-  width:  200px;
+  width: 200px;
   height: 60px;
   margin: 0 80px;
 }
@@ -82,18 +86,18 @@ nav > ul {
   list-style: none;
   color: rgba(0, 0, 0, 0.5);
 }
-nav > ul > li {
+nav > ul > a {
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
-nav > ul > li:hover {
-  cursor: pointer;
+nav > ul > a:hover {
   color: black;
 }
 section {
   width: 99vw;
-  height: auto;
+  height: 100vh;
   display: grid;
-  padding:  100px ;
+  padding: 100px;
   gap: 0 50px;
 }
 #section1 {
@@ -107,10 +111,16 @@ section {
   grid-area: container1;
   display: grid;
   justify-items: center;
+  position: relative;
+}
+#container1 > p {
+  position: absolute;
+  color: white;
 }
 #container1 > img {
-  width: 80%;
-  height: 80%;
+  position:absolute;
+  width: 100%;
+  height: 50%;
   border-radius: 10px;
 }
 #noticia1 {
@@ -198,21 +208,21 @@ section {
   display: grid;
   justify-items: center;
 }
-#container3 > img{
+#container3 > img {
   width: 80%;
   height: 80%;
   border-radius: 10px;
   margin: 50px 0;
 }
 footer {
-  width: 99vw;
+  width: 100vw;
   height: 100px;
   border: 2px solid #e2e2e2;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.link-footer > a > img{
+.link-footer > a > img {
   width: 50px;
   height: 50px;
   margin: 0 20px;
@@ -220,6 +230,28 @@ footer {
   border-radius: 5px;
   background-color: white;
 }
-.link-footer > a > img:hover{
+.link-footer > a > img:hover {
   background-color: #e2e2e2;
 }
+/* @media screen {
+  header{
+    flex-direction: column;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  #section1{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #noticia1{
+    display: flex;
+    flex-direction: column;
+  }
+  #noticia2{
+    display: flex;
+    flex-direction: column;
+  }
+} */

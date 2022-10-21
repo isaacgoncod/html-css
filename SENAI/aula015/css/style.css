@@ -9,7 +9,7 @@ span {
   text-decoration: underline;
 }
 header {
-  width: 100vw;
+  width: 100%;
   height: 180px;
   display: flex;
   justify-content: space-around;
@@ -94,7 +94,7 @@ nav > ul > a:hover {
   color: black;
 }
 section {
-  width: 99vw;
+  width: 100%;
   height: 100%;
   display: grid;
   padding: 100px;
@@ -209,7 +209,7 @@ section {
   margin: 50px 0;
 }
 footer {
-  width: 100vw;
+  width: 100%;
   height: 100px;
   border: 2px solid #e2e2e2;
   display: flex;

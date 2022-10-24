@@ -1,0 +1,137 @@
+main{
+  width: 100%;
+}
+section{
+  width: 100%;
+}
+.card{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+}
+.card > img{
+  width: 100px;
+  height: 100%;
+  border-radius: 10px;  
+}
+#apagar{
+  width: 50px;
+  height: 50px;
+}
+main > label > p{
+  width: 180px;
+  height: 50px;
+  border: 4px solid #F8C304;
+  border-radius: 10px;
+  background-color: #0182b0;
+  color: #F8C304;
+  font-size: 20px;
+  margin: 50px 200px;
+  text-align: center;
+  padding: 8px 0;
+}
+main > label> p:hover{
+  cursor: pointer;
+  background-color: #F8C304;
+  color: #04558a;
+}
+.background,.sucesso{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 0, 128, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#menu,#sucesso-check{
+  display: none;
+}
+#menu:checked ~ .background, #sucesso-check:checked ~ .sucesso{
+  display: flex;
+}
+.cadastro{
+  width: 350px;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 20px;
+}
+.cadastro > div {
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid #6c117b;
+  margin: 30px 0;
+}
+.cadastro input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+#buttons{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+}
+#buttons  p{
+  width: 150px;
+  height: 50px;
+  border: 2px solid #6c117b;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 50px 0;
+  text-align: center;
+  padding: 7px;
+}
+#button-cancelar{
+  background-color: #fff;
+  color: #6c117b;
+}
+#button-cancelar:hover{
+  background-color: #6c117b;
+  color: #fff;
+  cursor: pointer;
+}
+#button-cadastrar{
+  background-color: #6c117b;
+  color: #fff;
+}
+#button-cadastrar:hover{
+  background-color: #fff;
+  color: #6c117b;
+  cursor: pointer;
+}
+.sucesso > div{
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.sucesso  label{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.sucesso label:hover{
+  cursor: pointer;
+}
+.sucesso  img{
+  width: 80px;
+  height: 80px;
+  margin: 20px 0;
+}

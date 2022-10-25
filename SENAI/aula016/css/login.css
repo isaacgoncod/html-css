@@ -63,6 +63,8 @@ section {
 }
 .login > a > button:hover{
   cursor: pointer;
+  background-color: #6c117b;
+  color: #fff;
 }
 @media (max-width: 1000px) {
   section{

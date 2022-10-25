@@ -1,8 +1,10 @@
 main{
   width: 100%;
+  height: 100%;
 }
 section{
   width: 100%;
+  height: 100%;
 }
 .card{
   width: 100%;
@@ -29,7 +31,7 @@ main > label > p{
   background-color: #0182b0;
   color: #F8C304;
   font-size: 20px;
-  margin: 50px 200px;
+  margin: 50px 180px;
   text-align: center;
   padding: 8px 0;
 }
@@ -43,23 +45,28 @@ main > label> p:hover{
   height: 100%;
   background-color: rgba(128, 0, 128, 0.5);
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 0;
-  z-index: 999;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
+}
+.sucesso{
+  display: none;
+  transition: 0;
 }
 #menu,#sucesso-check{
   display: none;
 }
 #menu:checked ~ .background, #sucesso-check:checked ~ .sucesso{
+  top: 0;
   display: flex;
 }
 .cadastro{
-  width: 350px;
-  height: auto;
-  background-color: aliceblue;
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
   border-radius: 10px;
   padding: 20px;
 }
@@ -77,18 +84,16 @@ main > label> p:hover{
 }
 #buttons{
   width: 100%;
-  height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: none;
 }
 #buttons  p{
   width: 150px;
   height: 50px;
   border: 2px solid #6c117b;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 20px;
-  margin: 50px 0;
   text-align: center;
   padding: 7px;
 }

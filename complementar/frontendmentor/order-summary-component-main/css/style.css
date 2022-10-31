@@ -6,7 +6,7 @@
   font-family: "Red Hat Display";
 }
 body {
-  background-image: url(../images/pattern-background-desktop.svg);
+  background-image: url('/order-summary-component-main/images/pattern-background-desktop.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }

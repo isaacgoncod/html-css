@@ -62,7 +62,7 @@ section h1 {
 .background-img {
   width: 50%;
   height: 100%;
-  background-image: url(/stats-preview-card-component-main/images/image-header-desktop.jpg);
+  background-image: url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-top-right-radius: 10px;

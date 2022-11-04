@@ -8,7 +8,7 @@ body{
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('/assets/pattern-background-desktop.svg');
+  background-image: url('/gradiente/assets/pattern-background-desktop.svg');
   background-size: contain;
   background-repeat: no-repeat;
   position: static;
@@ -31,9 +31,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: conic-gradient(#7280a7 75%, #fff 25%);
-}
-.progresso > div:hover{
+  background-image: conic-gradient(#7280a7 75%, #fff 0%);
   cursor: pointer;
 }
 .progresso > div > div{

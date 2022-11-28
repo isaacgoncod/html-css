@@ -1,0 +1,16 @@
+@import "style.css";
+main{
+  grid-template-columns: 1fr;
+}
+.container{
+  width: 500px;
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.container a {
+  color: red;
+}
+.card{
+  margin-right: 50px;
+}

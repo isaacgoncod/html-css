@@ -1,16 +1,44 @@
 @import "style.css";
+.gerenciar{
+  width: 300px;
+  font-size: 1.4rem;
+}
 main{
   grid-template-columns: 1fr;
 }
 .container{
-  width: 500px;
+  width: 600px;
+  height: auto;
   display: flex;
   color: #fff;
-  flex-wrap: wrap;
 }
-.container a {
-  color: red;
+.card, .dados{
+  width: 50%;
+  height: 100%;
 }
-.card{
-  margin-right: 50px;
+.dados{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dados h2{
+  margin-bottom: 100px;
+}
+.dados a{
+  color: rgba(255, 0, 0, 0.788);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.dados a:hover{
+  text-decoration: underline;
+}
+@media(max-width:800px){
+  .header{
+    flex-direction: column;
+  }
+  .gerenciar{
+    margin-top: 20px;
+  }
 }

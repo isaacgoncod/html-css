@@ -5,17 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/play.png" type="image/x-icon">
     <title>PirateFlix</title>
   </head>
   <body>
     <header class="header">
-      <img src="./assets/logo 1.png" alt="Logo" class="logo" />
+      <a href="./index.html"
+        ><img src="./assets/logo 1.png" alt="Logo" class="logo"
+      /></a>
 
-      <div class="hamburguer-menu">
-        <label for="ihamburguer-menu"
-          ><img src="./assets/hamburguer.png" alt="hamburguer-menu"
-        /></label>
-      </div>
+      <!-- Media Query -->
+      <label for="input-menu"
+        ><img src="./assets/hamburguer.png" alt="ícone-menu" id="icon-menu"
+      /></label>
+
+      <input type="checkbox" id="input-menu" />
+      <menu class="menu-drop">
+        <label for="input-menu">
+          <img src="./assets/x.png" alt="Sair" />
+        </label>
+
+        <div id="input-menu-drop">
+          <input type="text" placeholder="Buscar..." />
+        </div>
+        <a href="./gerenciar.html" target="_blank" id="gerenciar-drop">
+          <div>Gerenciar Catálogo</div>
+        </a>
+      </menu>
+      <!--  -->
 
       <div class="pesquisa">
         <nav>
@@ -29,34 +46,23 @@
       </div>
     </header>
     <main>
-
-      <input type="checkbox" name="hamburguer-menu" id="ihamburguer-menu" />
-      <div class="menu-drop">
-        <div class="pesquisa-drop">
-          <nav>
-            <div class="pesquisa-input-drop">
-              <input type="text" placeholder="Buscar..." />
-            </div>
-            <a href="./gerenciar.html" target="_blank">
-              <div class="gerenciar-drop">Gerenciar Catálogo</div>
-            </a>
-          </nav>
+      <a href="./wonder.html">
+        <div class="card">
+          <img src="./assets/wonder.png" alt="Filme-Wonder" />
+          <div class="card-hover">
+            <img src="./assets/play.png" alt="Play" />
+          </div>
         </div>
-      </div>
+      </a>
 
-      <div class="card">
-        <img src="./assets/wonder.png" alt="Filme-Wonder" />
-        <div class="card-hover">
-          <img src="./assets/play.png" alt="Play" />
+      <a href="./1917.html">
+        <div class="card">
+          <img src="./assets/1917.jpg" alt="Filme-1917" />
+          <div class="card-hover">
+            <img src="./assets/play.png" alt="Play" />
+          </div>
         </div>
-      </div>
-
-      <div class="card">
-        <img src="./assets/1917.jpg" alt="Filme-1917" />
-        <div class="card-hover">
-          <img src="./assets/play.png" alt="Play" />
-        </div>
-      </div>
+      </a>
 
       <div class="card">
         <img src="./assets/sky.jpg" alt="Filme-Sky" />

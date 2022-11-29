@@ -1,0 +1,70 @@
+@charset "UTF-8";
+header{
+  background-color: rgba(0, 0, 0, 0.307);
+  position: fixed;
+  z-index: 999;
+  
+}
+section{
+  width: 100%;
+  height: 70%;
+  background-image: url('../assets/cena-wonder.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+}
+section img{
+  width: 100%;
+}
+.play{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: .5s;
+}
+.play img{
+  width: 200px;
+  height: 200px;
+}
+.play:hover{
+  cursor: pointer;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+main{
+  display: flex;
+  height: 100%;
+  box-shadow: 0px -40px 40px 40px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+}
+main h1{
+  color: #cfb53b;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+main p{
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 60px;
+}
+span{
+  color: tomato;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  header{
+    justify-content: center;
+  }
+  main p{
+    width: 100%;
+  }
+}

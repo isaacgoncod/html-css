@@ -1,0 +1,34 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./imagens/espaco.jpg");
+  background-size: cover;
+}
+.astronauta {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.astronauta img {
+  width: 200px;
+  position: absolute;
+  animation: mymove 30s infinite;
+}
+@keyframes mymove {
+  0%{
+    transform: rotate(85deg);
+  }
+  50%{
+    transform: rotate(-40deg);
+  }
+  100%{
+    transform: rotate(85deg);
+  }
+}
